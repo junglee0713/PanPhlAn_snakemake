@@ -1,0 +1,26 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 24
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	panphlan_map
+	1
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori/sunbeam_output/qc/decontam/SRC.738178_1.fastq.gz
+    output: /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738178_ecoli16
+    jobid: 0
+    wildcards: sample=SRC.738178, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori/sunbeam_output/qc/decontam/SRC.738178_1.fastq.gz         -o /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738178_ecoli16
+        
+Waiting at most 90 seconds for missing files.
+MissingOutputException in line 4 of /home/leej39/pan_snake/rules/map/map.rules:
+Missing files after 90 seconds:
+/scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738178_ecoli16
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/leej39/pan_snake/.snakemake/log/2019-08-08T113713.915994.snakemake.log

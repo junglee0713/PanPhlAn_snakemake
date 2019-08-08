@@ -1,0 +1,4 @@
+WildcardError in line 2 of /home/leej39/pan_snake/rules/target/target.rules:
+No values given for wildcard 'sample,\\'.
+  File "/home/leej39/pan_snake/Snakefile", line 15, in <module>
+  File "/home/leej39/pan_snake/rules/target/target.rules", line 2, in <module>

@@ -1,0 +1,44 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 300
+Job counts:
+	count	jobs
+	1	all
+	2	panphlan_profile
+	3
+
+rule panphlan_profile:
+    input: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/result_ecoli16_presence_absence.csv
+    jobid: 2
+    wildcards: clade=ecoli16
+
+
+        ~/panphlan/panphlan_profile.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result         --o_dna /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/result_ecoli16_presence_absence.csv         --add_strains
+        
+Submitted job 2 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_profile:
+    input: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/result_vparvula16_presence_absence.csv
+    jobid: 1
+    wildcards: clade=vparvula16
+
+
+        ~/panphlan/panphlan_profile.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result         --o_dna /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/result_vparvula16_presence_absence.csv         --add_strains
+        
+Submitted job 1 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 1.
+1 of 3 steps (33%) done
+Finished job 2.
+2 of 3 steps (67%) done
+
+localrule all:
+    input: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/result_ecoli16_presence_absence.csv, /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/result_vparvula16_presence_absence.csv
+    jobid: 0
+
+Finished job 0.
+3 of 3 steps (100%) done
+Shutting down, this might take some time.
+Complete log: /home/leej39/pan_snake/.snakemake/log/2019-08-08T132936.250488.snakemake.log
+mail -s 'Workflow finished successfully' junglee0713@gmail.com < /home/leej39/pan_snake/.snakemake/log/2019-08-08T132936.250488.snakemake.log

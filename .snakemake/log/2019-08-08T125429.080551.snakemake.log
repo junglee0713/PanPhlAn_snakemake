@@ -1,0 +1,2495 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 300
+Job counts:
+	count	jobs
+	1	all
+	190	panphlan_map
+	191
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807371_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807371_vparvula16.csv.bz2
+    jobid: 76
+    wildcards: sample=SRC.807371, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807371_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807371_vparvula16.csv         --verbose
+        
+Submitted job 76 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807371_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807371_ecoli16.csv.bz2
+    jobid: 166
+    wildcards: sample=SRC.807371, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807371_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807371_ecoli16.csv         --verbose
+        
+Submitted job 166 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807336_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807336_ecoli16.csv.bz2
+    jobid: 14
+    wildcards: sample=SRC.807336, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807336_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807336_ecoli16.csv         --verbose
+        
+Submitted job 14 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738453_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738453_vparvula16.csv.bz2
+    jobid: 135
+    wildcards: sample=SRC.738453, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738453_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738453_vparvula16.csv         --verbose
+        
+Submitted job 135 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807336_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807336_vparvula16.csv.bz2
+    jobid: 188
+    wildcards: sample=SRC.807336, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807336_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807336_vparvula16.csv         --verbose
+        
+Submitted job 188 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738453_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738453_ecoli16.csv.bz2
+    jobid: 160
+    wildcards: sample=SRC.738453, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738453_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738453_ecoli16.csv         --verbose
+        
+Submitted job 160 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807382_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807382_vparvula16.csv.bz2
+    jobid: 100
+    wildcards: sample=SRC.807382, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807382_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807382_vparvula16.csv         --verbose
+        
+Submitted job 100 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807382_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807382_ecoli16.csv.bz2
+    jobid: 190
+    wildcards: sample=SRC.807382, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807382_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807382_ecoli16.csv         --verbose
+        
+Submitted job 190 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807397_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807397_ecoli16.csv.bz2
+    jobid: 52
+    wildcards: sample=SRC.807397, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807397_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807397_ecoli16.csv         --verbose
+        
+Submitted job 52 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738412_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738412_vparvula16.csv.bz2
+    jobid: 159
+    wildcards: sample=SRC.738412, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738412_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738412_vparvula16.csv         --verbose
+        
+Submitted job 159 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807397_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807397_vparvula16.csv.bz2
+    jobid: 34
+    wildcards: sample=SRC.807397, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807397_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807397_vparvula16.csv         --verbose
+        
+Submitted job 34 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738412_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738412_ecoli16.csv.bz2
+    jobid: 70
+    wildcards: sample=SRC.738412, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738412_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738412_ecoli16.csv         --verbose
+        
+Submitted job 70 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/Extractemptywell2_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/Extractemptywell2_vparvula16.csv.bz2
+    jobid: 86
+    wildcards: sample=Extractemptywell2, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/Extractemptywell2_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/Extractemptywell2_vparvula16.csv         --verbose
+        
+Submitted job 86 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/Extractemptywell2_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/Extractemptywell2_ecoli16.csv.bz2
+    jobid: 5
+    wildcards: sample=Extractemptywell2, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/Extractemptywell2_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/Extractemptywell2_ecoli16.csv         --verbose
+        
+Submitted job 5 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807398_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807398_ecoli16.csv.bz2
+    jobid: 87
+    wildcards: sample=SRC.807398, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807398_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807398_ecoli16.csv         --verbose
+        
+Submitted job 87 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807406_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807406_vparvula16.csv.bz2
+    jobid: 184
+    wildcards: sample=SRC.807406, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807406_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807406_vparvula16.csv         --verbose
+        
+Submitted job 184 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738408_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738408_ecoli16.csv.bz2
+    jobid: 41
+    wildcards: sample=SRC.738408, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738408_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738408_ecoli16.csv         --verbose
+        
+Submitted job 41 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738566_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738566_ecoli16.csv.bz2
+    jobid: 109
+    wildcards: sample=SRC.738566, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738566_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738566_ecoli16.csv         --verbose
+        
+Submitted job 109 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807406_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807406_ecoli16.csv.bz2
+    jobid: 96
+    wildcards: sample=SRC.807406, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807406_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807406_ecoli16.csv         --verbose
+        
+Submitted job 96 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807398_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807398_vparvula16.csv.bz2
+    jobid: 137
+    wildcards: sample=SRC.807398, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807398_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807398_vparvula16.csv         --verbose
+        
+Submitted job 137 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738408_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738408_vparvula16.csv.bz2
+    jobid: 42
+    wildcards: sample=SRC.738408, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738408_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738408_vparvula16.csv         --verbose
+        
+Submitted job 42 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738566_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738566_vparvula16.csv.bz2
+    jobid: 53
+    wildcards: sample=SRC.738566, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738566_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738566_vparvula16.csv         --verbose
+        
+Submitted job 53 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807394_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807394_vparvula16.csv.bz2
+    jobid: 1
+    wildcards: sample=SRC.807394, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807394_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807394_vparvula16.csv         --verbose
+        
+Submitted job 1 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738452_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738452_ecoli16.csv.bz2
+    jobid: 84
+    wildcards: sample=SRC.738452, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738452_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738452_ecoli16.csv         --verbose
+        
+Error in rule panphlan_map:
+    jobid: 166
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807371_ecoli16.csv.bz2
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Job failed, going on with independent jobs.
+Submitted job 84 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738452_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738452_vparvula16.csv.bz2
+    jobid: 83
+    wildcards: sample=SRC.738452, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738452_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738452_vparvula16.csv         --verbose
+        
+Submitted job 83 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807394_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807394_ecoli16.csv.bz2
+    jobid: 38
+    wildcards: sample=SRC.807394, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807394_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807394_ecoli16.csv         --verbose
+        
+Submitted job 38 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807407_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807407_ecoli16.csv.bz2
+    jobid: 13
+    wildcards: sample=SRC.807407, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807407_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807407_ecoli16.csv         --verbose
+        
+Submitted job 13 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738410_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738410_vparvula16.csv.bz2
+    jobid: 90
+    wildcards: sample=SRC.738410, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738410_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738410_vparvula16.csv         --verbose
+        
+Submitted job 90 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807427_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807427_vparvula16.csv.bz2
+    jobid: 108
+    wildcards: sample=SRC.807427, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807427_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807427_vparvula16.csv         --verbose
+        
+Submitted job 108 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738434_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738434_ecoli16.csv.bz2
+    jobid: 146
+    wildcards: sample=SRC.738434, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738434_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738434_ecoli16.csv         --verbose
+        
+Submitted job 146 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807407_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807407_vparvula16.csv.bz2
+    jobid: 67
+    wildcards: sample=SRC.807407, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807407_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807407_vparvula16.csv         --verbose
+        
+Submitted job 67 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807427_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807427_ecoli16.csv.bz2
+    jobid: 66
+    wildcards: sample=SRC.807427, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807427_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807427_ecoli16.csv         --verbose
+        
+Submitted job 66 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738410_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738410_ecoli16.csv.bz2
+    jobid: 124
+    wildcards: sample=SRC.738410, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738410_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738410_ecoli16.csv         --verbose
+        
+Submitted job 124 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738430_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738430_vparvula16.csv.bz2
+    jobid: 18
+    wildcards: sample=SRC.738430, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738430_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738430_vparvula16.csv         --verbose
+        
+Submitted job 18 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738426_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738426_vparvula16.csv.bz2
+    jobid: 169
+    wildcards: sample=SRC.738426, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738426_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738426_vparvula16.csv         --verbose
+        
+Submitted job 169 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738434_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738434_vparvula16.csv.bz2
+    jobid: 175
+    wildcards: sample=SRC.738434, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738434_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738434_vparvula16.csv         --verbose
+        
+Submitted job 175 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738430_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738430_ecoli16.csv.bz2
+    jobid: 78
+    wildcards: sample=SRC.738430, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738430_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738430_ecoli16.csv         --verbose
+        
+Submitted job 78 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738426_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738426_ecoli16.csv.bz2
+    jobid: 105
+    wildcards: sample=SRC.738426, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738426_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738426_ecoli16.csv         --verbose
+        
+Submitted job 105 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738409_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738409_ecoli16.csv.bz2
+    jobid: 168
+    wildcards: sample=SRC.738409, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738409_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738409_ecoli16.csv         --verbose
+        
+Submitted job 168 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738409_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738409_vparvula16.csv.bz2
+    jobid: 99
+    wildcards: sample=SRC.738409, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738409_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738409_vparvula16.csv         --verbose
+        
+Submitted job 99 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807385_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807385_ecoli16.csv.bz2
+    jobid: 182
+    wildcards: sample=SRC.807385, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807385_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807385_ecoli16.csv         --verbose
+        
+Submitted job 182 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807385_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807385_vparvula16.csv.bz2
+    jobid: 142
+    wildcards: sample=SRC.807385, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807385_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807385_vparvula16.csv         --verbose
+        
+Submitted job 142 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807423_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807423_ecoli16.csv.bz2
+    jobid: 179
+    wildcards: sample=SRC.807423, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807423_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807423_ecoli16.csv         --verbose
+        
+Submitted job 179 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807423_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807423_vparvula16.csv.bz2
+    jobid: 138
+    wildcards: sample=SRC.807423, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807423_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807423_vparvula16.csv         --verbose
+        
+Submitted job 138 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738450_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738450_ecoli16.csv.bz2
+    jobid: 91
+    wildcards: sample=SRC.738450, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738450_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738450_ecoli16.csv         --verbose
+        
+Submitted job 91 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738450_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738450_vparvula16.csv.bz2
+    jobid: 183
+    wildcards: sample=SRC.738450, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738450_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738450_vparvula16.csv         --verbose
+        
+Submitted job 183 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738442_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738442_ecoli16.csv.bz2
+    jobid: 133
+    wildcards: sample=SRC.738442, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738442_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738442_ecoli16.csv         --verbose
+        
+Submitted job 133 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807337_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807337_vparvula16.csv.bz2
+    jobid: 60
+    wildcards: sample=SRC.807337, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807337_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807337_vparvula16.csv         --verbose
+        
+Submitted job 60 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738433_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738433_ecoli16.csv.bz2
+    jobid: 186
+    wildcards: sample=SRC.738433, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738433_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738433_ecoli16.csv         --verbose
+        
+Submitted job 186 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738442_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738442_vparvula16.csv.bz2
+    jobid: 58
+    wildcards: sample=SRC.738442, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738442_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738442_vparvula16.csv         --verbose
+        
+Submitted job 58 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807337_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807337_ecoli16.csv.bz2
+    jobid: 47
+    wildcards: sample=SRC.807337, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807337_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807337_ecoli16.csv         --verbose
+        
+Submitted job 47 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738433_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738433_vparvula16.csv.bz2
+    jobid: 152
+    wildcards: sample=SRC.738433, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738433_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738433_vparvula16.csv         --verbose
+        
+Submitted job 152 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738416_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738416_vparvula16.csv.bz2
+    jobid: 59
+    wildcards: sample=SRC.738416, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738416_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738416_vparvula16.csv         --verbose
+        
+Submitted job 59 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738416_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738416_ecoli16.csv.bz2
+    jobid: 150
+    wildcards: sample=SRC.738416, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738416_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738416_ecoli16.csv         --verbose
+        
+Waiting at most 90 seconds for missing files.
+Submitted job 150 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738441_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738441_ecoli16.csv.bz2
+    jobid: 103
+    wildcards: sample=SRC.738441, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738441_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738441_ecoli16.csv         --verbose
+        
+Submitted job 103 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807349_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807349_ecoli16.csv.bz2
+    jobid: 140
+    wildcards: sample=SRC.807349, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807349_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807349_ecoli16.csv         --verbose
+        
+Submitted job 140 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807396_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807396_vparvula16.csv.bz2
+    jobid: 136
+    wildcards: sample=SRC.807396, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807396_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807396_vparvula16.csv         --verbose
+        
+Submitted job 136 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738441_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738441_vparvula16.csv.bz2
+    jobid: 158
+    wildcards: sample=SRC.738441, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738441_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738441_vparvula16.csv         --verbose
+        
+Submitted job 158 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807349_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807349_vparvula16.csv.bz2
+    jobid: 24
+    wildcards: sample=SRC.807349, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807349_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807349_vparvula16.csv         --verbose
+        
+Submitted job 24 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807396_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807396_ecoli16.csv.bz2
+    jobid: 85
+    wildcards: sample=SRC.807396, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807396_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807396_ecoli16.csv         --verbose
+        
+Submitted job 85 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738403_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738403_vparvula16.csv.bz2
+    jobid: 3
+    wildcards: sample=SRC.738403, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738403_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738403_vparvula16.csv         --verbose
+        
+Submitted job 3 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738403_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738403_ecoli16.csv.bz2
+    jobid: 118
+    wildcards: sample=SRC.738403, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738403_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738403_ecoli16.csv         --verbose
+        
+Submitted job 118 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738405_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738405_vparvula16.csv.bz2
+    jobid: 44
+    wildcards: sample=SRC.738405, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738405_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738405_vparvula16.csv         --verbose
+        
+Submitted job 44 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807408_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807408_ecoli16.csv.bz2
+    jobid: 98
+    wildcards: sample=SRC.807408, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807408_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807408_ecoli16.csv         --verbose
+        
+Finished job 76.
+1 of 191 steps (0.52%) done
+Finished job 188.
+2 of 191 steps (1%) done
+Submitted job 98 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/Extractblanktip1_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/Extractblanktip1_ecoli16.csv.bz2
+    jobid: 55
+    wildcards: sample=Extractblanktip1, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/Extractblanktip1_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/Extractblanktip1_ecoli16.csv         --verbose
+        
+Submitted job 55 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807379_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807379_vparvula16.csv.bz2
+    jobid: 130
+    wildcards: sample=SRC.807379, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807379_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807379_vparvula16.csv         --verbose
+        
+Submitted job 130 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807379_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807379_ecoli16.csv.bz2
+    jobid: 113
+    wildcards: sample=SRC.807379, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807379_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807379_ecoli16.csv         --verbose
+        
+Submitted job 113 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738405_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738405_ecoli16.csv.bz2
+    jobid: 162
+    wildcards: sample=SRC.738405, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738405_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738405_ecoli16.csv         --verbose
+        
+Submitted job 162 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/Extractblanktip1_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/Extractblanktip1_vparvula16.csv.bz2
+    jobid: 62
+    wildcards: sample=Extractblanktip1, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/Extractblanktip1_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/Extractblanktip1_vparvula16.csv         --verbose
+        
+Submitted job 62 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738572_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738572_ecoli16.csv.bz2
+    jobid: 97
+    wildcards: sample=SRC.738572, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738572_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738572_ecoli16.csv         --verbose
+        
+Submitted job 97 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807408_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807408_vparvula16.csv.bz2
+    jobid: 170
+    wildcards: sample=SRC.807408, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807408_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807408_vparvula16.csv         --verbose
+        
+Submitted job 170 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738572_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738572_vparvula16.csv.bz2
+    jobid: 189
+    wildcards: sample=SRC.738572, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738572_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738572_vparvula16.csv         --verbose
+        
+Submitted job 189 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807388_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807388_vparvula16.csv.bz2
+    jobid: 187
+    wildcards: sample=SRC.807388, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807388_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807388_vparvula16.csv         --verbose
+        
+Submitted job 187 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738567_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738567_ecoli16.csv.bz2
+    jobid: 79
+    wildcards: sample=SRC.738567, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738567_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738567_ecoli16.csv         --verbose
+        
+Submitted job 79 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807388_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807388_ecoli16.csv.bz2
+    jobid: 33
+    wildcards: sample=SRC.807388, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807388_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807388_ecoli16.csv         --verbose
+        
+Submitted job 33 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738567_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738567_vparvula16.csv.bz2
+    jobid: 147
+    wildcards: sample=SRC.738567, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738567_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738567_vparvula16.csv         --verbose
+        
+Submitted job 147 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807389_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807389_vparvula16.csv.bz2
+    jobid: 92
+    wildcards: sample=SRC.807389, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807389_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807389_vparvula16.csv         --verbose
+        
+Submitted job 92 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807346_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807346_vparvula16.csv.bz2
+    jobid: 68
+    wildcards: sample=SRC.807346, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807346_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807346_vparvula16.csv         --verbose
+        
+Submitted job 68 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/DNAfreewater1_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/DNAfreewater1_ecoli16.csv.bz2
+    jobid: 50
+    wildcards: sample=DNAfreewater1, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/DNAfreewater1_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/DNAfreewater1_ecoli16.csv         --verbose
+        
+Submitted job 50 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807389_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807389_ecoli16.csv.bz2
+    jobid: 64
+    wildcards: sample=SRC.807389, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807389_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807389_ecoli16.csv         --verbose
+        
+Submitted job 64 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807346_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807346_ecoli16.csv.bz2
+    jobid: 61
+    wildcards: sample=SRC.807346, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807346_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807346_ecoli16.csv         --verbose
+        
+Submitted job 61 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/DNAfreewater1_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/DNAfreewater1_vparvula16.csv.bz2
+    jobid: 131
+    wildcards: sample=DNAfreewater1, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/DNAfreewater1_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/DNAfreewater1_vparvula16.csv         --verbose
+        
+Submitted job 131 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807348_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807348_ecoli16.csv.bz2
+    jobid: 101
+    wildcards: sample=SRC.807348, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807348_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807348_ecoli16.csv         --verbose
+        
+Submitted job 101 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738444_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738444_vparvula16.csv.bz2
+    jobid: 56
+    wildcards: sample=SRC.738444, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738444_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738444_vparvula16.csv         --verbose
+        
+Submitted job 56 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807348_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807348_vparvula16.csv.bz2
+    jobid: 19
+    wildcards: sample=SRC.807348, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807348_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807348_vparvula16.csv         --verbose
+        
+Submitted job 19 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738444_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738444_ecoli16.csv.bz2
+    jobid: 115
+    wildcards: sample=SRC.738444, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738444_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738444_ecoli16.csv         --verbose
+        
+Submitted job 115 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738438_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738438_ecoli16.csv.bz2
+    jobid: 107
+    wildcards: sample=SRC.738438, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738438_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738438_ecoli16.csv         --verbose
+        
+Submitted job 107 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738563_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738563_vparvula16.csv.bz2
+    jobid: 172
+    wildcards: sample=SRC.738563, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738563_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738563_vparvula16.csv         --verbose
+        
+Submitted job 172 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738438_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738438_vparvula16.csv.bz2
+    jobid: 178
+    wildcards: sample=SRC.738438, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738438_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738438_vparvula16.csv         --verbose
+        
+Submitted job 178 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738563_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738563_ecoli16.csv.bz2
+    jobid: 36
+    wildcards: sample=SRC.738563, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738563_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738563_ecoli16.csv         --verbose
+        
+Submitted job 36 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738413_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738413_vparvula16.csv.bz2
+    jobid: 43
+    wildcards: sample=SRC.738413, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738413_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738413_vparvula16.csv         --verbose
+        
+Submitted job 43 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807400_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807400_ecoli16.csv.bz2
+    jobid: 77
+    wildcards: sample=SRC.807400, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807400_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807400_ecoli16.csv         --verbose
+        
+Submitted job 77 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738413_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738413_ecoli16.csv.bz2
+    jobid: 161
+    wildcards: sample=SRC.738413, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738413_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738413_ecoli16.csv         --verbose
+        
+Submitted job 161 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807400_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807400_vparvula16.csv.bz2
+    jobid: 65
+    wildcards: sample=SRC.807400, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807400_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807400_vparvula16.csv         --verbose
+        
+Submitted job 65 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738565_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738565_vparvula16.csv.bz2
+    jobid: 32
+    wildcards: sample=SRC.738565, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738565_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738565_vparvula16.csv         --verbose
+        
+Submitted job 32 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807372_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807372_vparvula16.csv.bz2
+    jobid: 112
+    wildcards: sample=SRC.807372, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807372_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807372_vparvula16.csv         --verbose
+        
+Submitted job 112 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738565_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738565_ecoli16.csv.bz2
+    jobid: 176
+    wildcards: sample=SRC.738565, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738565_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738565_ecoli16.csv         --verbose
+        
+Submitted job 176 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807372_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807372_ecoli16.csv.bz2
+    jobid: 73
+    wildcards: sample=SRC.807372, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807372_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807372_ecoli16.csv         --verbose
+        
+Submitted job 73 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807342_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807342_ecoli16.csv.bz2
+    jobid: 155
+    wildcards: sample=SRC.807342, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807342_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807342_ecoli16.csv         --verbose
+        
+Submitted job 155 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807414_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807414_vparvula16.csv.bz2
+    jobid: 144
+    wildcards: sample=SRC.807414, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807414_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807414_vparvula16.csv         --verbose
+        
+Submitted job 144 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738437_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738437_vparvula16.csv.bz2
+    jobid: 110
+    wildcards: sample=SRC.738437, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738437_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738437_vparvula16.csv         --verbose
+        
+Submitted job 110 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807342_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807342_vparvula16.csv.bz2
+    jobid: 116
+    wildcards: sample=SRC.807342, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807342_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807342_vparvula16.csv         --verbose
+        
+Submitted job 116 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807414_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807414_ecoli16.csv.bz2
+    jobid: 139
+    wildcards: sample=SRC.807414, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807414_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807414_ecoli16.csv         --verbose
+        
+Submitted job 139 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807378_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807378_ecoli16.csv.bz2
+    jobid: 154
+    wildcards: sample=SRC.807378, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807378_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807378_ecoli16.csv         --verbose
+        
+Finished job 83.
+3 of 191 steps (2%) done
+Finished job 135.
+4 of 191 steps (2%) done
+Submitted job 154 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738437_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738437_ecoli16.csv.bz2
+    jobid: 153
+    wildcards: sample=SRC.738437, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738437_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738437_ecoli16.csv         --verbose
+        
+Submitted job 153 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738569_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738569_ecoli16.csv.bz2
+    jobid: 129
+    wildcards: sample=SRC.738569, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738569_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738569_ecoli16.csv         --verbose
+        
+Submitted job 129 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738569_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738569_vparvula16.csv.bz2
+    jobid: 181
+    wildcards: sample=SRC.738569, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738569_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738569_vparvula16.csv         --verbose
+        
+Finished job 86.
+5 of 191 steps (3%) done
+Submitted job 181 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738561_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738561_vparvula16.csv.bz2
+    jobid: 46
+    wildcards: sample=SRC.738561, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738561_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738561_vparvula16.csv         --verbose
+        
+Submitted job 46 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/Extractblanktip2_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/Extractblanktip2_vparvula16.csv.bz2
+    jobid: 57
+    wildcards: sample=Extractblanktip2, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/Extractblanktip2_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/Extractblanktip2_vparvula16.csv         --verbose
+        
+Finished job 42.
+6 of 191 steps (3%) done
+Finished job 90.
+7 of 191 steps (4%) done
+Submitted job 57 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738561_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738561_ecoli16.csv.bz2
+    jobid: 26
+    wildcards: sample=SRC.738561, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738561_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738561_ecoli16.csv         --verbose
+        
+Submitted job 26 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/Extractblanktip2_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/Extractblanktip2_ecoli16.csv.bz2
+    jobid: 28
+    wildcards: sample=Extractblanktip2, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/Extractblanktip2_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/Extractblanktip2_ecoli16.csv         --verbose
+        
+Submitted job 28 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807401_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807401_vparvula16.csv.bz2
+    jobid: 122
+    wildcards: sample=SRC.807401, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807401_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807401_vparvula16.csv         --verbose
+        
+Submitted job 122 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807401_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807401_ecoli16.csv.bz2
+    jobid: 125
+    wildcards: sample=SRC.807401, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807401_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807401_ecoli16.csv         --verbose
+        
+Submitted job 125 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738560_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738560_vparvula16.csv.bz2
+    jobid: 185
+    wildcards: sample=SRC.738560, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738560_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738560_vparvula16.csv         --verbose
+        
+Submitted job 185 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807350_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807350_vparvula16.csv.bz2
+    jobid: 12
+    wildcards: sample=SRC.807350, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807350_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807350_vparvula16.csv         --verbose
+        
+Submitted job 12 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738560_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738560_ecoli16.csv.bz2
+    jobid: 54
+    wildcards: sample=SRC.738560, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738560_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738560_ecoli16.csv         --verbose
+        
+Finished job 147.
+8 of 191 steps (4%) done
+Submitted job 54 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807350_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807350_ecoli16.csv.bz2
+    jobid: 180
+    wildcards: sample=SRC.807350, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807350_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807350_ecoli16.csv         --verbose
+        
+Submitted job 180 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/vibriolamda1_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/vibriolamda1_vparvula16.csv.bz2
+    jobid: 45
+    wildcards: sample=vibriolamda1, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/vibriolamda1_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/vibriolamda1_vparvula16.csv         --verbose
+        
+Submitted job 45 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738423_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738423_vparvula16.csv.bz2
+    jobid: 165
+    wildcards: sample=SRC.738423, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738423_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738423_vparvula16.csv         --verbose
+        
+Submitted job 165 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/vibriolamda1_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/vibriolamda1_ecoli16.csv.bz2
+    jobid: 120
+    wildcards: sample=vibriolamda1, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/vibriolamda1_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/vibriolamda1_ecoli16.csv         --verbose
+        
+Submitted job 120 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738423_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738423_ecoli16.csv.bz2
+    jobid: 23
+    wildcards: sample=SRC.738423, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738423_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738423_ecoli16.csv         --verbose
+        
+Submitted job 23 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738570_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738570_vparvula16.csv.bz2
+    jobid: 93
+    wildcards: sample=SRC.738570, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738570_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738570_vparvula16.csv         --verbose
+        
+Submitted job 93 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807399_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807399_ecoli16.csv.bz2
+    jobid: 102
+    wildcards: sample=SRC.807399, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807399_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807399_ecoli16.csv         --verbose
+        
+Submitted job 102 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738570_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738570_ecoli16.csv.bz2
+    jobid: 27
+    wildcards: sample=SRC.738570, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738570_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738570_ecoli16.csv         --verbose
+        
+Submitted job 27 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807399_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807399_vparvula16.csv.bz2
+    jobid: 151
+    wildcards: sample=SRC.807399, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807399_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807399_vparvula16.csv         --verbose
+        
+Submitted job 151 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738568_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738568_vparvula16.csv.bz2
+    jobid: 104
+    wildcards: sample=SRC.738568, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738568_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738568_vparvula16.csv         --verbose
+        
+Submitted job 104 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738436_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738436_ecoli16.csv.bz2
+    jobid: 75
+    wildcards: sample=SRC.738436, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738436_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738436_ecoli16.csv         --verbose
+        
+Submitted job 75 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807403_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807403_ecoli16.csv.bz2
+    jobid: 163
+    wildcards: sample=SRC.807403, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807403_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807403_ecoli16.csv         --verbose
+        
+Submitted job 163 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738568_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738568_ecoli16.csv.bz2
+    jobid: 111
+    wildcards: sample=SRC.738568, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738568_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738568_ecoli16.csv         --verbose
+        
+Submitted job 111 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807403_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807403_vparvula16.csv.bz2
+    jobid: 30
+    wildcards: sample=SRC.807403, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807403_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807403_vparvula16.csv         --verbose
+        
+Submitted job 30 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738436_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738436_vparvula16.csv.bz2
+    jobid: 148
+    wildcards: sample=SRC.738436, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738436_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738436_vparvula16.csv         --verbose
+        
+Submitted job 148 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/DNAfreewater2_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/DNAfreewater2_ecoli16.csv.bz2
+    jobid: 39
+    wildcards: sample=DNAfreewater2, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/DNAfreewater2_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/DNAfreewater2_ecoli16.csv         --verbose
+        
+Submitted job 39 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/DNAfreewater2_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/DNAfreewater2_vparvula16.csv.bz2
+    jobid: 15
+    wildcards: sample=DNAfreewater2, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/DNAfreewater2_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/DNAfreewater2_vparvula16.csv         --verbose
+        
+Submitted job 15 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738440_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738440_vparvula16.csv.bz2
+    jobid: 88
+    wildcards: sample=SRC.738440, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738440_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738440_vparvula16.csv         --verbose
+        
+Submitted job 88 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807383_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807383_vparvula16.csv.bz2
+    jobid: 174
+    wildcards: sample=SRC.807383, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807383_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807383_vparvula16.csv         --verbose
+        
+Submitted job 174 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738440_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738440_ecoli16.csv.bz2
+    jobid: 8
+    wildcards: sample=SRC.738440, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738440_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738440_ecoli16.csv         --verbose
+        
+Submitted job 8 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807383_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807383_ecoli16.csv.bz2
+    jobid: 22
+    wildcards: sample=SRC.807383, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807383_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807383_ecoli16.csv         --verbose
+        
+Submitted job 22 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807409_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807409_vparvula16.csv.bz2
+    jobid: 81
+    wildcards: sample=SRC.807409, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807409_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807409_vparvula16.csv         --verbose
+        
+Submitted job 81 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807409_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807409_ecoli16.csv.bz2
+    jobid: 11
+    wildcards: sample=SRC.807409, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807409_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807409_ecoli16.csv         --verbose
+        
+Submitted job 11 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.735752_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.735752_ecoli16.csv.bz2
+    jobid: 9
+    wildcards: sample=SRC.735752, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.735752_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.735752_ecoli16.csv         --verbose
+        
+Submitted job 9 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738422_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738422_vparvula16.csv.bz2
+    jobid: 157
+    wildcards: sample=SRC.738422, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738422_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738422_vparvula16.csv         --verbose
+        
+Submitted job 157 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738422_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738422_ecoli16.csv.bz2
+    jobid: 2
+    wildcards: sample=SRC.738422, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738422_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738422_ecoli16.csv         --verbose
+        
+Submitted job 2 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.735752_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.735752_vparvula16.csv.bz2
+    jobid: 69
+    wildcards: sample=SRC.735752, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.735752_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.735752_vparvula16.csv         --verbose
+        
+Submitted job 69 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738429_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738429_ecoli16.csv.bz2
+    jobid: 121
+    wildcards: sample=SRC.738429, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738429_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738429_ecoli16.csv         --verbose
+        
+Submitted job 121 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738429_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738429_vparvula16.csv.bz2
+    jobid: 173
+    wildcards: sample=SRC.738429, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738429_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738429_vparvula16.csv         --verbose
+        
+Submitted job 173 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807381_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807381_ecoli16.csv.bz2
+    jobid: 6
+    wildcards: sample=SRC.807381, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807381_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807381_ecoli16.csv         --verbose
+        
+Finished job 57.
+9 of 191 steps (5%) done
+Submitted job 6 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738443_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738443_vparvula16.csv.bz2
+    jobid: 63
+    wildcards: sample=SRC.738443, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738443_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738443_vparvula16.csv         --verbose
+        
+Submitted job 63 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807381_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807381_vparvula16.csv.bz2
+    jobid: 49
+    wildcards: sample=SRC.807381, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807381_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807381_vparvula16.csv         --verbose
+        
+Submitted job 49 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738443_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738443_ecoli16.csv.bz2
+    jobid: 123
+    wildcards: sample=SRC.738443, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738443_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738443_ecoli16.csv         --verbose
+        
+Submitted job 123 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738418_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738418_vparvula16.csv.bz2
+    jobid: 89
+    wildcards: sample=SRC.738418, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738418_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738418_vparvula16.csv         --verbose
+        
+Submitted job 89 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738571_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738571_vparvula16.csv.bz2
+    jobid: 171
+    wildcards: sample=SRC.738571, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738571_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738571_vparvula16.csv         --verbose
+        
+Submitted job 171 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738571_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738571_ecoli16.csv.bz2
+    jobid: 145
+    wildcards: sample=SRC.738571, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738571_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738571_ecoli16.csv         --verbose
+        
+Finished job 24.
+10 of 191 steps (5%) done
+Submitted job 145 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738418_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738418_ecoli16.csv.bz2
+    jobid: 74
+    wildcards: sample=SRC.738418, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738418_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738418_ecoli16.csv         --verbose
+        
+Submitted job 74 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807378_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807378_vparvula16.csv.bz2
+    jobid: 94
+    wildcards: sample=SRC.807378, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807378_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807378_vparvula16.csv         --verbose
+        
+Finished job 62.
+11 of 191 steps (6%) done
+Submitted job 94 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807351_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807351_ecoli16.csv.bz2
+    jobid: 114
+    wildcards: sample=SRC.807351, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807351_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807351_ecoli16.csv         --verbose
+        
+Submitted job 114 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738456_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738456_ecoli16.csv.bz2
+    jobid: 134
+    wildcards: sample=SRC.738456, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738456_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738456_ecoli16.csv         --verbose
+        
+Submitted job 134 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738456_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738456_vparvula16.csv.bz2
+    jobid: 164
+    wildcards: sample=SRC.738456, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738456_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738456_vparvula16.csv         --verbose
+        
+Submitted job 164 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807351_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807351_vparvula16.csv.bz2
+    jobid: 141
+    wildcards: sample=SRC.807351, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807351_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807351_vparvula16.csv         --verbose
+        
+Submitted job 141 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807410_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807410_vparvula16.csv.bz2
+    jobid: 119
+    wildcards: sample=SRC.807410, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807410_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807410_vparvula16.csv         --verbose
+        
+Finished job 184.
+12 of 191 steps (6%) done
+Submitted job 119 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807384_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807384_vparvula16.csv.bz2
+    jobid: 51
+    wildcards: sample=SRC.807384, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807384_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807384_vparvula16.csv         --verbose
+        
+Submitted job 51 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807410_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807410_ecoli16.csv.bz2
+    jobid: 4
+    wildcards: sample=SRC.807410, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807410_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807410_ecoli16.csv         --verbose
+        
+Finished job 53.
+13 of 191 steps (7%) done
+Submitted job 4 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807384_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807384_ecoli16.csv.bz2
+    jobid: 80
+    wildcards: sample=SRC.807384, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807384_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807384_ecoli16.csv         --verbose
+        
+Submitted job 80 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738411_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738411_vparvula16.csv.bz2
+    jobid: 127
+    wildcards: sample=SRC.738411, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738411_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738411_vparvula16.csv         --verbose
+        
+Submitted job 127 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738411_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738411_ecoli16.csv.bz2
+    jobid: 167
+    wildcards: sample=SRC.738411, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738411_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738411_ecoli16.csv         --verbose
+        
+Submitted job 167 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/Extractemptywell1_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/Extractemptywell1_ecoli16.csv.bz2
+    jobid: 177
+    wildcards: sample=Extractemptywell1, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/Extractemptywell1_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/Extractemptywell1_ecoli16.csv         --verbose
+        
+Submitted job 177 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/Extractemptywell1_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/Extractemptywell1_vparvula16.csv.bz2
+    jobid: 156
+    wildcards: sample=Extractemptywell1, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/Extractemptywell1_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/Extractemptywell1_vparvula16.csv         --verbose
+        
+Submitted job 156 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738564_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738564_ecoli16.csv.bz2
+    jobid: 7
+    wildcards: sample=SRC.738564, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738564_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738564_ecoli16.csv         --verbose
+        
+Finished job 60.
+14 of 191 steps (7%) done
+Finished job 92.
+15 of 191 steps (8%) done
+Submitted job 7 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738564_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738564_vparvula16.csv.bz2
+    jobid: 35
+    wildcards: sample=SRC.738564, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738564_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738564_vparvula16.csv         --verbose
+        
+Submitted job 35 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807386_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807386_ecoli16.csv.bz2
+    jobid: 31
+    wildcards: sample=SRC.807386, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807386_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807386_ecoli16.csv         --verbose
+        
+Finished job 68.
+16 of 191 steps (8%) done
+Finished job 131.
+17 of 191 steps (9%) done
+Finished job 19.
+18 of 191 steps (9%) done
+Submitted job 31 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807386_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807386_vparvula16.csv.bz2
+    jobid: 149
+    wildcards: sample=SRC.807386, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807386_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807386_vparvula16.csv         --verbose
+        
+Submitted job 149 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807341_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807341_vparvula16.csv.bz2
+    jobid: 82
+    wildcards: sample=SRC.807341, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807341_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807341_vparvula16.csv         --verbose
+        
+Submitted job 82 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807375_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807375_ecoli16.csv.bz2
+    jobid: 16
+    wildcards: sample=SRC.807375, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807375_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807375_ecoli16.csv         --verbose
+        
+Submitted job 16 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807341_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807341_ecoli16.csv.bz2
+    jobid: 132
+    wildcards: sample=SRC.807341, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807341_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807341_ecoli16.csv         --verbose
+        
+Submitted job 132 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807375_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807375_vparvula16.csv.bz2
+    jobid: 48
+    wildcards: sample=SRC.807375, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807375_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807375_vparvula16.csv         --verbose
+        
+Submitted job 48 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807402_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807402_vparvula16.csv.bz2
+    jobid: 29
+    wildcards: sample=SRC.807402, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807402_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807402_vparvula16.csv         --verbose
+        
+Submitted job 29 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807402_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807402_ecoli16.csv.bz2
+    jobid: 143
+    wildcards: sample=SRC.807402, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807402_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807402_ecoli16.csv         --verbose
+        
+Submitted job 143 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738446_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738446_ecoli16.csv.bz2
+    jobid: 20
+    wildcards: sample=SRC.738446, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738446_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738446_ecoli16.csv         --verbose
+        
+Submitted job 20 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738559_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738559_vparvula16.csv.bz2
+    jobid: 95
+    wildcards: sample=SRC.738559, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738559_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738559_vparvula16.csv         --verbose
+        
+Submitted job 95 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738449_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738449_vparvula16.csv.bz2
+    jobid: 117
+    wildcards: sample=SRC.738449, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738449_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738449_vparvula16.csv         --verbose
+        
+Submitted job 117 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738446_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738446_vparvula16.csv.bz2
+    jobid: 17
+    wildcards: sample=SRC.738446, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738446_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738446_vparvula16.csv         --verbose
+        
+Submitted job 17 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738559_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738559_ecoli16.csv.bz2
+    jobid: 10
+    wildcards: sample=SRC.738559, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738559_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738559_ecoli16.csv         --verbose
+        
+Submitted job 10 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738449_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738449_ecoli16.csv.bz2
+    jobid: 126
+    wildcards: sample=SRC.738449, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738449_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738449_ecoli16.csv         --verbose
+        
+Submitted job 126 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807411_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807411_vparvula16.csv.bz2
+    jobid: 25
+    wildcards: sample=SRC.807411, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807411_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807411_vparvula16.csv         --verbose
+        
+Submitted job 25 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738435_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738435_ecoli16.csv.bz2
+    jobid: 21
+    wildcards: sample=SRC.738435, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738435_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738435_ecoli16.csv         --verbose
+        
+Submitted job 21 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807411_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807411_ecoli16.csv.bz2
+    jobid: 71
+    wildcards: sample=SRC.807411, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807411_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807411_ecoli16.csv         --verbose
+        
+Submitted job 71 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738435_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738435_vparvula16.csv.bz2
+    jobid: 106
+    wildcards: sample=SRC.738435, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.738435_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738435_vparvula16.csv         --verbose
+        
+Submitted job 106 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807395_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807395_vparvula16.csv.bz2
+    jobid: 37
+    wildcards: sample=SRC.807395, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807395_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807395_vparvula16.csv         --verbose
+        
+Submitted job 37 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807380_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807380_vparvula16.csv.bz2
+    jobid: 128
+    wildcards: sample=SRC.807380, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807380_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807380_vparvula16.csv         --verbose
+        
+Submitted job 128 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807395_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807395_ecoli16.csv.bz2
+    jobid: 40
+    wildcards: sample=SRC.807395, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807395_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807395_ecoli16.csv         --verbose
+        
+Submitted job 40 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807380_1.fastq.gz
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807380_ecoli16.csv.bz2
+    jobid: 72
+    wildcards: sample=SRC.807380, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/sunbeam_output/qc/decontam/SRC.807380_1.fastq.gz         --output /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.807380_ecoli16.csv         --verbose
+        
+Submitted job 72 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 110.
+19 of 191 steps (10%) done
+Finished job 116.
+20 of 191 steps (10%) done
+Finished job 46.
+21 of 191 steps (11%) done
+Finished job 185.
+22 of 191 steps (12%) done
+Finished job 18.
+23 of 191 steps (12%) done
+Finished job 99.
+24 of 191 steps (13%) done
+Finished job 142.
+25 of 191 steps (13%) done
+Finished job 112.
+26 of 191 steps (14%) done
+Finished job 148.
+27 of 191 steps (14%) done
+Finished job 15.
+28 of 191 steps (15%) done
+Finished job 69.
+29 of 191 steps (15%) done
+Finished job 181.
+30 of 191 steps (16%) done
+Finished job 12.
+31 of 191 steps (16%) done
+Finished job 45.
+32 of 191 steps (17%) done
+Finished job 140.
+33 of 191 steps (17%) done
+Finished job 89.
+34 of 191 steps (18%) done
+Finished job 164.
+35 of 191 steps (18%) done
+Finished job 141.
+36 of 191 steps (19%) done
+Finished job 3.
+37 of 191 steps (19%) done
+Finished job 130.
+38 of 191 steps (20%) done
+Finished job 170.
+39 of 191 steps (20%) done
+Error in rule panphlan_map:
+    jobid: 189
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738572_vparvula16.csv.bz2
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Job failed, going on with independent jobs.
+Finished job 84.
+40 of 191 steps (21%) done
+Finished job 169.
+41 of 191 steps (21%) done
+Finished job 152.
+42 of 191 steps (22%) done
+Finished job 59.
+43 of 191 steps (23%) done
+Finished job 172.
+44 of 191 steps (23%) done
+Finished job 104.
+45 of 191 steps (24%) done
+Finished job 171.
+46 of 191 steps (24%) done
+Finished job 134.
+47 of 191 steps (25%) done
+Finished job 51.
+48 of 191 steps (25%) done
+Finished job 127.
+49 of 191 steps (26%) done
+Finished job 156.
+50 of 191 steps (26%) done
+Finished job 82.
+51 of 191 steps (27%) done
+Finished job 95.
+52 of 191 steps (27%) done
+Finished job 144.
+53 of 191 steps (28%) done
+Finished job 153.
+54 of 191 steps (28%) done
+Finished job 55.
+55 of 191 steps (29%) done
+Finished job 187.
+56 of 191 steps (29%) done
+Finished job 159.
+57 of 191 steps (30%) done
+Finished job 175.
+58 of 191 steps (30%) done
+Finished job 138.
+59 of 191 steps (31%) done
+Finished job 183.
+60 of 191 steps (31%) done
+Finished job 58.
+61 of 191 steps (32%) done
+Finished job 56.
+62 of 191 steps (32%) done
+Finished job 43.
+63 of 191 steps (33%) done
+Finished job 32.
+64 of 191 steps (34%) done
+Finished job 174.
+65 of 191 steps (34%) done
+Finished job 49.
+66 of 191 steps (35%) done
+Finished job 119.
+67 of 191 steps (35%) done
+Finished job 149.
+68 of 191 steps (36%) done
+Finished job 122.
+69 of 191 steps (36%) done
+Finished job 180.
+70 of 191 steps (37%) done
+Finished job 158.
+71 of 191 steps (37%) done
+Finished job 100.
+72 of 191 steps (38%) done
+Finished job 108.
+73 of 191 steps (38%) done
+Finished job 73.
+74 of 191 steps (39%) done
+Finished job 128.
+75 of 191 steps (39%) done
+Finished job 132.
+76 of 191 steps (40%) done
+Finished job 29.
+77 of 191 steps (40%) done
+Finished job 28.
+78 of 191 steps (41%) done
+Finished job 14.
+79 of 191 steps (41%) done
+Finished job 1.
+80 of 191 steps (42%) done
+Finished job 47.
+81 of 191 steps (42%) done
+Finished job 79.
+82 of 191 steps (43%) done
+Finished job 178.
+83 of 191 steps (43%) done
+Finished job 155.
+84 of 191 steps (44%) done
+Error in rule panphlan_map:
+    jobid: 93
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result/SRC.738570_vparvula16.csv.bz2
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Job failed, going on with independent jobs.
+Finished job 106.
+85 of 191 steps (45%) done
+Finished job 63.
+86 of 191 steps (45%) done
+Finished job 94.
+87 of 191 steps (46%) done
+Finished job 136.
+88 of 191 steps (46%) done
+Finished job 44.
+89 of 191 steps (47%) done
+Finished job 160.
+90 of 191 steps (47%) done
+Finished job 137.
+91 of 191 steps (48%) done
+Finished job 67.
+92 of 191 steps (48%) done
+Finished job 61.
+93 of 191 steps (49%) done
+Finished job 101.
+94 of 191 steps (49%) done
+Finished job 65.
+95 of 191 steps (50%) done
+Finished job 30.
+96 of 191 steps (50%) done
+Finished job 173.
+97 of 191 steps (51%) done
+Finished job 25.
+98 of 191 steps (51%) done
+Finished job 37.
+99 of 191 steps (52%) done
+Finished job 177.
+100 of 191 steps (52%) done
+Finished job 48.
+101 of 191 steps (53%) done
+Finished job 34.
+102 of 191 steps (53%) done
+Finished job 50.
+103 of 191 steps (54%) done
+Finished job 75.
+104 of 191 steps (54%) done
+Finished job 165.
+105 of 191 steps (55%) done
+Finished job 167.
+106 of 191 steps (55%) done
+Finished job 35.
+107 of 191 steps (56%) done
+Finished job 157.
+108 of 191 steps (57%) done
+Finished job 17.
+109 of 191 steps (57%) done
+Finished job 124.
+110 of 191 steps (58%) done
+Finished job 117.
+111 of 191 steps (58%) done
+Finished job 88.
+112 of 191 steps (59%) done
+Finished job 54.
+113 of 191 steps (59%) done
+Finished job 129.
+114 of 191 steps (60%) done
+Finished job 151.
+115 of 191 steps (60%) done
+Finished job 81.
+116 of 191 steps (61%) done
+Finished job 168.
+117 of 191 steps (61%) done
+Finished job 39.
+118 of 191 steps (62%) done
+Finished job 87.
+119 of 191 steps (62%) done
+Finished job 179.
+120 of 191 steps (63%) done
+Finished job 133.
+121 of 191 steps (63%) done
+Finished job 10.
+122 of 191 steps (64%) done
+Finished job 20.
+123 of 191 steps (64%) done
+Finished job 26.
+124 of 191 steps (65%) done
+Finished job 13.
+125 of 191 steps (65%) done
+Finished job 190.
+126 of 191 steps (66%) done
+Finished job 52.
+127 of 191 steps (66%) done
+Finished job 120.
+128 of 191 steps (67%) done
+Finished job 146.
+129 of 191 steps (68%) done
+Finished job 121.
+130 of 191 steps (68%) done
+Finished job 5.
+131 of 191 steps (69%) done
+Finished job 186.
+132 of 191 steps (69%) done
+Finished job 123.
+133 of 191 steps (70%) done
+Finished job 145.
+134 of 191 steps (70%) done
+Finished job 4.
+135 of 191 steps (71%) done
+Finished job 103.
+136 of 191 steps (71%) done
+Finished job 64.
+137 of 191 steps (72%) done
+Finished job 23.
+138 of 191 steps (72%) done
+Finished job 96.
+139 of 191 steps (73%) done
+Finished job 91.
+140 of 191 steps (73%) done
+Finished job 85.
+141 of 191 steps (74%) done
+Finished job 98.
+142 of 191 steps (74%) done
+Finished job 38.
+143 of 191 steps (75%) done
+Finished job 41.
+144 of 191 steps (75%) done
+Finished job 33.
+145 of 191 steps (76%) done
+Finished job 9.
+146 of 191 steps (76%) done
+Finished job 21.
+147 of 191 steps (77%) done
+Finished job 71.
+148 of 191 steps (77%) done
+Finished job 114.
+149 of 191 steps (78%) done
+Finished job 107.
+150 of 191 steps (79%) done
+Finished job 66.
+151 of 191 steps (79%) done
+Finished job 8.
+152 of 191 steps (80%) done
+Finished job 27.
+153 of 191 steps (80%) done
+Finished job 16.
+154 of 191 steps (81%) done
+Finished job 109.
+155 of 191 steps (81%) done
+Finished job 162.
+156 of 191 steps (82%) done
+Finished job 126.
+157 of 191 steps (82%) done
+Finished job 182.
+158 of 191 steps (83%) done
+Finished job 115.
+159 of 191 steps (83%) done
+Finished job 70.
+160 of 191 steps (84%) done
+Finished job 6.
+161 of 191 steps (84%) done
+Finished job 74.
+162 of 191 steps (85%) done
+Finished job 105.
+163 of 191 steps (85%) done
+Finished job 80.
+164 of 191 steps (86%) done
+Finished job 78.
+165 of 191 steps (86%) done
+Finished job 77.
+166 of 191 steps (87%) done
+Finished job 150.
+167 of 191 steps (87%) done
+Finished job 7.
+168 of 191 steps (88%) done
+Finished job 31.
+169 of 191 steps (88%) done
+Finished job 72.
+170 of 191 steps (89%) done
+Finished job 143.
+171 of 191 steps (90%) done
+Finished job 118.
+172 of 191 steps (90%) done
+Finished job 97.
+173 of 191 steps (91%) done
+Finished job 161.
+174 of 191 steps (91%) done
+Finished job 40.
+175 of 191 steps (92%) done
+Finished job 154.
+176 of 191 steps (92%) done
+Finished job 113.
+177 of 191 steps (93%) done
+Finished job 36.
+178 of 191 steps (93%) done
+Finished job 176.
+179 of 191 steps (94%) done
+Finished job 139.
+180 of 191 steps (94%) done
+Finished job 22.
+181 of 191 steps (95%) done
+Finished job 102.
+182 of 191 steps (95%) done
+Finished job 11.
+183 of 191 steps (96%) done
+Finished job 125.
+184 of 191 steps (96%) done
+Finished job 111.
+185 of 191 steps (97%) done
+Finished job 163.
+186 of 191 steps (97%) done
+Finished job 2.
+187 of 191 steps (98%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+mail -s 'An error occurred' junglee0713@gmail.com < /home/leej39/pan_snake/.snakemake/log/2019-08-08T125429.080551.snakemake.log
+Complete log: /home/leej39/pan_snake/.snakemake/log/2019-08-08T125429.080551.snakemake.log

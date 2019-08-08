@@ -1,0 +1,11 @@
+Building DAG of jobs...
+MissingInputException in line 18 of /home/leej39/pan_snake/Snakefile:
+Missing input files for rule all:
+/scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738178_ecoli16.csv
+/scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738146_ecoli16.csv
+/scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738367_vparvula16.csv
+/scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738178_vparvula16.csv
+/scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738101_ecoli16.csv
+/scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738101_vparvula16.csv
+/scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738367_ecoli16.csv
+/scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738146_vparvula16.csv

@@ -1,0 +1,18 @@
+rule all_map:
+    input: TARGET_MAP
+
+rule panphlan_map:
+    input:
+        DECONTAM_DIR + "/{sample}_1.fastq.gz"
+    params:
+        MAP_RESULT_DIR + "/{sample}_{clade}.csv"
+    output:
+        MAP_RESULT_DIR + "/{sample}_{clade}.csv.bz2"
+    shell:
+        """
+        ~/panphlan/panphlan_map.py \
+        -c {wildcards.clade} \
+        -i {input} \
+        --output {params} \
+        --verbose
+        """

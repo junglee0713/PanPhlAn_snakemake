@@ -1,0 +1,31 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 80
+Job counts:
+	count	jobs
+	1	all
+	1	panphlan_map
+	2
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori/sunbeam_output/qc/decontam/SRC.738178_1.fastq.gz
+    output: /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738178_ecoli16.csv.bz2
+    jobid: 1
+    wildcards: sample=SRC.738178, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori/sunbeam_output/qc/decontam/SRC.738178_1.fastq.gz         --output /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738178_ecoli16.csv         --verbose
+        
+Submitted job 1 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 1.
+1 of 2 steps (50%) done
+
+localrule all:
+    input: /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738178_ecoli16.csv.bz2, /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738178_vparvula16.csv.bz2, /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738101_ecoli16.csv.bz2, /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738101_vparvula16.csv.bz2, /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738367_ecoli16.csv.bz2, /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738367_vparvula16.csv.bz2, /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738146_ecoli16.csv.bz2, /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738146_vparvula16.csv.bz2
+    jobid: 0
+
+Finished job 0.
+2 of 2 steps (100%) done
+Shutting down, this might take some time.
+Complete log: /home/leej39/pan_snake/.snakemake/log/2019-08-08T115717.880533.snakemake.log
+mail -s 'Workflow finished successfully' junglee0713@gmail.com < /home/leej39/pan_snake/.snakemake/log/2019-08-08T115717.880533.snakemake.log

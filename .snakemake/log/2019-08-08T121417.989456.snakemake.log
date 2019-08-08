@@ -1,0 +1,22 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 24
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	panphlan_map
+	1
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori/sunbeam_output/qc/decontam/Extractblankswab2_1.fastq.gz
+    output: /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/Extractblankswab2_vparvula16.csv.bz2
+    jobid: 0
+    wildcards: sample=Extractblankswab2, clade=vparvula16
+
+
+        ~/panphlan/panphlan_map.py         -c vparvula16         -i /scr1/users/leej39/Sagori/sunbeam_output/qc/decontam/Extractblankswab2_1.fastq.gz         --output /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/Extractblankswab2_vparvula16.csv         --verbose
+        
+Finished job 0.
+1 of 1 steps (100%) done
+Shutting down, this might take some time.
+Complete log: /home/leej39/pan_snake/.snakemake/log/2019-08-08T121417.989456.snakemake.log

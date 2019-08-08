@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 4 of /home/leej39/pan_snake/rules/profile/profile.rules:
+Missing input files for rule panphlan_profile:
+/scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result

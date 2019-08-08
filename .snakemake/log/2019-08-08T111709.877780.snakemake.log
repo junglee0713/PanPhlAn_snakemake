@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 72
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	panphlan_map
+	1
+
+rule panphlan_map:
+    input: /scr1/users/leej39/Sagori/sunbeam_output/qc/decontam/SRC.738178_1.fastq.gz
+    output: /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738178_ecoli16.csv.bz2
+    jobid: 0
+    wildcards: sample=SRC.738178, clade=ecoli16
+
+
+        ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori/sunbeam_output/qc/decontam/SRC.738178_1.fastq.gz         -o /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738178_ecoli16.csv.bz2
+        
+Waiting at most 90 seconds for missing files.

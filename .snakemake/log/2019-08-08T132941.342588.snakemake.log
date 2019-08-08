@@ -1,0 +1,22 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 24
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	panphlan_profile
+	1
+
+rule panphlan_profile:
+    input: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result
+    output: /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/result_ecoli16_presence_absence.csv
+    jobid: 0
+    wildcards: clade=ecoli16
+
+
+        ~/panphlan/panphlan_profile.py         -c ecoli16         -i /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/map_result         --o_dna /scr1/users/leej39/Sagori_RUN2/PanPhlAn_output/result_ecoli16_presence_absence.csv         --add_strains
+        
+Finished job 0.
+1 of 1 steps (100%) done
+Shutting down, this might take some time.
+Complete log: /home/leej39/pan_snake/.snakemake/log/2019-08-08T132941.342588.snakemake.log
