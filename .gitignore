@@ -38,3 +38,9 @@ vignettes/*.pdf
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
 >>>>>>> 77649f3eda1b3db2ef9e406aa30a047cbdd613a6
+
+# snakemake
+.snakemake/
+
+# nfs
+.nfs*

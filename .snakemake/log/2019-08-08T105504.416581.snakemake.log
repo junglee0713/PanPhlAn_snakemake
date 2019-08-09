@@ -94,3 +94,4 @@ rule panphlan_map:
         ~/panphlan/panphlan_map.py         -c ecoli16         -i /scr1/users/leej39/Sagori/sunbeam_output/qc/decontam/SRC.738178_1.fastq.gz         -o /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738178_ecoli16.csv.bz2
         
 Submitted job 6 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Will exit after finishing currently running jobs.

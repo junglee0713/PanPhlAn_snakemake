@@ -4,5 +4,7 @@ TARGET_MAP = expand(MAP_RESULT_DIR + "/{sample}_{clade}.csv.bz2",
 TARGET_PROFILE = expand(PANPHLAN_DIR + "/result_{clade}_presence_absence.csv",
                     clade = CLADE_LIST)
 
-TARGET_ALL = TARGET_MAP
-TARGET_ALL = TARGET_PROFILE
+TARGET_ALL = (
+    TARGET_MAP +
+    TARGET_PROFILE
+)

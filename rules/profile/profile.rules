@@ -2,7 +2,7 @@ rule all_profile:
     input: TARGET_PROFILE
 
 rule panphlan_profile:
-    input:
+    params:
         MAP_RESULT_DIR
     output:
         PANPHLAN_DIR + "/result_{clade}_presence_absence.csv"
@@ -10,7 +10,7 @@ rule panphlan_profile:
         """
         ~/panphlan/panphlan_profile.py \
         -c {wildcards.clade} \
-        -i {input} \
+        -i {params} \
         --o_dna {output} \
         --add_strains
         """

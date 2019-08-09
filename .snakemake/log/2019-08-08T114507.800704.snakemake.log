@@ -130,3 +130,11 @@ Error in rule panphlan_map:
     cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
 
 Job failed, going on with independent jobs.
+Will exit after finishing currently running jobs.
+Error in rule panphlan_map:
+    jobid: 7
+    output: /scr1/users/leej39/Sagori/PanPhlAn_output/map_result/SRC.738101_ecoli16.csv
+    cluster_jobid: removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue
+
+Job failed, going on with independent jobs.
+Will exit after finishing currently running jobs.
