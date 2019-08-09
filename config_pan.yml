@@ -1,0 +1,6 @@
+all:
+    project_dir: "/scr1/users/leej39/Sagori"    
+    admin_email: "junglee0713@gmail.com"
+
+panphlan:
+    clades: ["ecoli16", "vparvula16", "kpn19"]    
